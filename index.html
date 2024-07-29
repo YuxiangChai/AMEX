@@ -52,7 +52,8 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">AMEX: Android Multi-annotation Expo Dataset for Mobile GUI Agents</h1>
+            <h1 class="title is-1 publication-title">AMEX: Android Multi-annotation Expo Dataset for Mobile GUI Agents
+            </h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
@@ -77,30 +78,30 @@
             <br>
             <div class="is-size-5 publication-authors">
               <span class="author-block">
-                <sup>1</sup> MMLab, CUHK &nbsp;&nbsp;&nbsp;<sup>2</sup> SJTU<br> 
+                <sup>1</sup> MMLab, CUHK &nbsp;&nbsp;&nbsp;<sup>2</sup> SJTU<br>
                 <sup>3</sup> Shanghai AI Lab &nbsp;&nbsp;&nbsp;<sup>4</sup> vivo AI Lab<br>
               </span>
               <span class="eql-cntrb"><small><br>
-                <sup>*</sup>Indicates Equal Contribution <br>
-                <sup>&#9993;</sup>Corresponding Author
-              </small></span>
+                  <sup>*</sup>Indicates Equal Contribution <br>
+                  <sup>&#9993;</sup>Corresponding Author
+                </small></span>
             </div>
 
             <div class="column has-text-centered">
               <div class="publication-links">
                 <!-- Arxiv PDF link -->
-                <!-- <span class="link-block">
-                  <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2407.17490" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fas fa-file-pdf"></i>
                     </span>
-                    <span>Paper</span>
+                    <span>Arxiv Paper</span>
                   </a>
-                </span> -->
+                </span>
 
                 <!-- Supplementary PDF link -->
-                <span class="link-block">
+                <!-- <span class="link-block">
                   <a href="static/pdfs/AMEX_preptrint.pdf" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
@@ -108,16 +109,16 @@
                     </span>
                     <span>PDF</span>
                   </a>
-                </span>
+                </span> -->
 
                 <!-- Github link -->
                 <span class="link-block">
-                  <a href="https://github.com/YuxiangChai/AMEX-data-sample" target="_blank"
+                  <a href="https://github.com/YuxiangChai/AMEX-codebase" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
-                    <span>GitHub</span>
+                    <span>GitHub Codebase</span>
                   </a>
                 </span>
 
@@ -131,8 +132,8 @@
                     <span>Dataset</span>
                   </a>
 
-                <!-- ArXiv abstract Link -->
-                <!-- <span class="link-block">
+                  <!-- ArXiv abstract Link -->
+                  <!-- <span class="link-block">
                   <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
@@ -174,23 +175,23 @@
           <h2 class="title is-3">Abstract</h2>
           <div class="content has-text-justified">
             <p>
-              AI agents have drawn increasing attention mostly on their ability to perceive 
-              environments, understand tasks, and autonomously achieve goals. To advance 
-              research on AI agents in mobile scenarios, we introduce the Android 
-              Multi-annotation EXpo (AMEX), a comprehensive, large-scale dataset designed 
-              for generalist mobile GUI-control agents. Their capabilities of completing 
-              complex tasks by directly interacting with the graphical user interface (GUI) 
-              on mobile devices are trained and evaluated with the proposed dataset. AMEX 
-              comprises over 104K high-resolution screenshots from 110 popular mobile 
-              applications, which are annotated at multiple levels. Unlike existing mobile 
-              device-control datasets, e.g., MoTIF, AITW, etc., AMEX includes three levels 
-              of annotations: GUI interactive element grounding, GUI screen and element 
-              functionality descriptions, and complex natural language instructions, each 
-              averaging 13 steps with stepwise GUI-action chains. We develop this dataset 
-              from a more instructive and detailed perspective, complementing the general 
-              settings of existing datasets. Additionally, we develop a baseline model SPHINX 
-              Agent and compare its performance across state-of-the-art agents trained on other 
-              datasets. To facilitate further research, we open-source our dataset, models, 
+              AI agents have drawn increasing attention mostly on their ability to perceive
+              environments, understand tasks, and autonomously achieve goals. To advance
+              research on AI agents in mobile scenarios, we introduce the Android
+              Multi-annotation EXpo (AMEX), a comprehensive, large-scale dataset designed
+              for generalist mobile GUI-control agents. Their capabilities of completing
+              complex tasks by directly interacting with the graphical user interface (GUI)
+              on mobile devices are trained and evaluated with the proposed dataset. AMEX
+              comprises over 104K high-resolution screenshots from 110 popular mobile
+              applications, which are annotated at multiple levels. Unlike existing mobile
+              device-control datasets, e.g., MoTIF, AITW, etc., AMEX includes three levels
+              of annotations: GUI interactive element grounding, GUI screen and element
+              functionality descriptions, and complex natural language instructions, each
+              averaging 13 steps with stepwise GUI-action chains. We develop this dataset
+              from a more instructive and detailed perspective, complementing the general
+              settings of existing datasets. Additionally, we develop a baseline model SPHINX
+              Agent and compare its performance across state-of-the-art agents trained on other
+              datasets. To facilitate further research, we open-source our dataset, models,
               and relevant evaluation tools.
             </p>
           </div>
@@ -210,12 +211,12 @@
           <div class="item">
             <img src="static/images/main-contribution.png" alt="main contribution" />
             <h2 class="subtitle has-text-centered">
-              An example of a screenshot-instruction (<span style="color: rgb(70, 177, 225);">Blue</span> tab) 
-              pair illustrating the multi-level annotation of AMEX. <span style="color: rgb(238, 68, 51);">Red</span> 
-              boxes + <span style="color: rgb(127, 36, 28);">Brown</span> tabs: selected GUI interactive 
-              elements and their corresponding functionalities. <span style="color: rgb(71, 172, 20);">Green</span> 
-              tab: the detailed annotation of the element. <span style="color: rgb(255, 192, 0);">Yellow</span> 
-              tab: the description of the entire screenshot. <span style="color: rgb(216, 110, 204);">Purple</span> 
+              An example of a screenshot-instruction (<span style="color: rgb(70, 177, 225);">Blue</span> tab)
+              pair illustrating the multi-level annotation of AMEX. <span style="color: rgb(238, 68, 51);">Red</span>
+              boxes + <span style="color: rgb(127, 36, 28);">Brown</span> tabs: selected GUI interactive
+              elements and their corresponding functionalities. <span style="color: rgb(71, 172, 20);">Green</span>
+              tab: the detailed annotation of the element. <span style="color: rgb(255, 192, 0);">Yellow</span>
+              tab: the description of the entire screenshot. <span style="color: rgb(216, 110, 204);">Purple</span>
               hand icon + tab: the current action and the annotation.
             </h2>
           </div>
@@ -223,10 +224,10 @@
           <div class="item">
             <img src="static/images/pipeline.png" alt="pipeline" />
             <h2 class="subtitle has-text-centered">
-              Overview of the data collection pipeline. The raw data is from two subsets collected by 
-              human annotators and an autonomous tool respectively, while annotators record the 
-              GUI-action chains simultaneously. Then raw data is sent to annotators to filter GUI 
-              element bounding boxes, then they with raw screenshots are sent as input to GPT to 
+              Overview of the data collection pipeline. The raw data is from two subsets collected by
+              human annotators and an autonomous tool respectively, while annotators record the
+              GUI-action chains simultaneously. Then raw data is sent to annotators to filter GUI
+              element bounding boxes, then they with raw screenshots are sent as input to GPT to
               extract the GUI screen and element descriptions, which are then manually checked by humans.
             </h2>
           </div>
@@ -234,12 +235,12 @@
           <div class="item">
             <img src="static/images/element-demo.png" alt="element demo" />
             <h2 class="subtitle has-text-centered">
-              Demonstrations of element annotations of AITW and AMEX. 
-              (a) Element bounding boxes in AITW (left) and AMEX (right). 
-              Boxes in AMEX are well aligned but boxes in AITW might be misaligned and mis-annotated. 
-              (b) GUI interactive elements in AMEX. <span style="color: rgb(127, 36, 28);">Red</span> 
-              boxes: clickable elements. <span style="color: rgb(70, 177, 225);">Blue</span> boxes: 
-              horizontally scrollable elements. <span style="color: rgb(255, 192, 0);">Yellow</span>: 
+              Demonstrations of element annotations of AITW and AMEX.
+              (a) Element bounding boxes in AITW (left) and AMEX (right).
+              Boxes in AMEX are well aligned but boxes in AITW might be misaligned and mis-annotated.
+              (b) GUI interactive elements in AMEX. <span style="color: rgb(127, 36, 28);">Red</span>
+              boxes: clickable elements. <span style="color: rgb(70, 177, 225);">Blue</span> boxes:
+              horizontally scrollable elements. <span style="color: rgb(255, 192, 0);">Yellow</span>:
               vertically scrollable element.
             </h2>
           </div>
